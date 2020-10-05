@@ -1,0 +1,43 @@
+body {
+    background-color: darkcyan;
+    color: rgb(255, 140, 0);
+}
+h1 {
+    font-size: 5em;
+    font-family: cursive; 
+    text-align: center; 
+    text-shadow: -3px 3px 3px #0e0d0d;
+    }
+h2 {
+    font-size: 3em;
+    background-color: darkslateblue;
+    
+    text-align: center;
+    }
+p {
+    font-size: 2em;
+    background-color: rgb(255, 140, 0);
+    color: darkcyan;
+    width: 560px;
+    text-indent: 2em;
+    }
+ul {
+    font-size: x-large;
+    font-weight: bold;
+    
+    }
+.nav{
+    display: inline-block;
+    width: 230px;
+    background:darkslateblue;
+}
+.nav a {
+    display:block;
+    text-decoration: none;
+    color: darkcyan;
+    text-indent: 1em;
+}
+a:hover{
+    background: darkcyan;
+    color:  darkslateblue;
+}
