@@ -1,12 +1,13 @@
 body {
-    background-color: darkcyan;
+    background-color: darkslateblue;
+    background-image: url(background.gif);
+    background-size: contain;
     color: rgb(255, 140, 0);
 }
 h1 {
     font-size: 5em;
     font-family: cursive; 
     text-align: center; 
-    text-shadow: -3px 3px 3px #0e0d0d;
     }
 h2 {
     font-size: 3em;
@@ -17,7 +18,7 @@ h2 {
 p {
     font-size: 2em;
     background-color: rgb(255, 140, 0);
-    color: darkcyan;
+    color: darkslateblue;
     width: 560px;
     text-indent: 2em;
     }
@@ -28,16 +29,16 @@ ul {
     }
 .nav{
     display: inline-block;
-    width: 230px;
+    width: 350px;
     background:darkslateblue;
 }
 .nav a {
     display:block;
     text-decoration: none;
-    color: darkcyan;
+    color: rgb(255, 140, 0);
     text-indent: 1em;
 }
 a:hover{
-    background: darkcyan;
+    background: rgb(255, 140, 0);
     color:  darkslateblue;
 }
