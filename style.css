@@ -1,8 +1,10 @@
 body {
     background-color: darkslateblue;
-    background-image: url(background.gif);
     background-size: contain;
     color: rgb(255, 140, 0);
+}
+.index-body{
+    background-image: url(background.gif);
 }
 h1 {
     font-size: 5em;
@@ -27,16 +29,27 @@ ul {
     font-weight: bold;
     
     }
+.top{
+    font-size: x-large;
+    background-color: darkslateblue;
+}
+.top span{
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+}
+.top .small-img{
+    text-align: right;
+}
 .nav{
     display: inline-block;
     width: 350px;
     background:darkslateblue;
 }
-.nav a {
+a {
     display:block;
     text-decoration: none;
     color: rgb(255, 140, 0);
-    text-indent: 1em;
 }
 a:hover{
     background: rgb(255, 140, 0);
