@@ -1,35 +1,37 @@
 body {
     background-color: darkslateblue;
-    background-size: contain;
+    background-size: cover;
     color: rgb(255, 140, 0);
 }
 .index-body{
-    background-image: url(image/background.gif);
+    background-image: url(image/background2.webp);
+    
 }
 .top .study{
-    background-image: url(image/超高兴.webp);
+    background-image: url(image/书.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 .top .family{
-    background-image: url(image/温馨.webp);
+    background-image: url(image/家.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 .top .room{
-    background-image: url(image/滑稽.webp);
+    background-image: url(image/宿舍.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 .top .gaozhong{
-    background-image: url(image/狗头.webp);
+    background-image: url(image/高中.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 .top .chuzhong{
-    background-image: url(image/歪嘴.webp);
+    background-image: url(image/蜂巢.png);
     background-repeat: no-repeat;
     background-size: contain;
+
 }
 h1 {
     font-size: 5em;
@@ -38,7 +40,7 @@ h1 {
     }
 h2 {
     font-size: 3em;
-    background-color: darkslateblue;
+    background-color: rgba(71, 61, 139, 0.5);
     
     text-align: center;
     }
@@ -46,7 +48,7 @@ p {
     display: inline-block;
     font-size: 2em;
     background-color: rgb(255, 140, 0);
-    color: darkslateblue;
+    color:darkslateblue;
     width: 350px;
     text-indent: 2em;
     }
@@ -57,7 +59,7 @@ ul {
     }
 .top{
     font-size: x-large;
-    background-color: darkslateblue;
+    background-color: rgba(71, 61, 139, 0.5);
 }
 .top span{
     display: inline-block;
@@ -92,13 +94,13 @@ ul {
 }
 .menu-body a:hover{
     color: rgb(255, 140, 0);
-    background-color: darkslateblue;
+    background-color: rgba(71, 61, 139, 0.5);
 }
 .nav-HTML,.nav-CSS,.nav-PHP,.nav-JS{
     vertical-align: top;
     display: inline-block;
     width: 350px;
-    background:darkslateblue;
+    background:rgba(71, 61, 139, 0.5);
 }
 a {
     display:block;
