@@ -4,7 +4,32 @@ body {
     color: rgb(255, 140, 0);
 }
 .index-body{
-    background-image: url(background.gif);
+    background-image: url(image/background.gif);
+}
+.top .study{
+    background-image: url(image/超高兴.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.top .family{
+    background-image: url(image/温馨.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.top .room{
+    background-image: url(image/滑稽.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.top .gaozhong{
+    background-image: url(image/狗头.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.top .chuzhong{
+    background-image: url(image/歪嘴.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 h1 {
     font-size: 5em;
@@ -18,10 +43,11 @@ h2 {
     text-align: center;
     }
 p {
+    display: inline-block;
     font-size: 2em;
     background-color: rgb(255, 140, 0);
     color: darkslateblue;
-    width: 560px;
+    width: 350px;
     text-indent: 2em;
     }
 ul {
@@ -38,10 +64,38 @@ ul {
     width: 240px;
     text-align: center;
 }
-.top .small-img{
+
+#setting{
     text-align: right;
 }
-.nav{
+.top .menu-head{
+    
+    position: relative;
+}
+.menu-body div{
+    width: 150px;
+}
+.top .menu-body{
+    display: none;
+    position: fixed;
+    right: 0px;
+    background-color: rgb(255, 140, 0);
+    font-weight: bold;
+    font-size: small;
+    z-index: 1;
+}
+.menu-body a{
+    color: darkslateblue;
+}
+.menu-head:hover .menu-body {
+    display: block;
+}
+.menu-body a:hover{
+    color: rgb(255, 140, 0);
+    background-color: darkslateblue;
+}
+.nav-HTML,.nav-CSS,.nav-PHP,.nav-JS{
+    vertical-align: top;
     display: inline-block;
     width: 350px;
     background:darkslateblue;
