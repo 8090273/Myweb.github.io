@@ -5,6 +5,7 @@ body {
 }
 .index-body{
     background-image: url(image/background2.webp);
+    background-attachment: fixed;
     
 }
 .top .study{
